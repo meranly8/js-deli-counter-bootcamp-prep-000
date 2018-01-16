@@ -19,5 +19,7 @@ function currentLine(katzDeliLine) {
   if (l === 0) {
     return 'The line is currently empty.'
   } 
-    
+  
+  let line = 'The line is currently: '
+  
 }
