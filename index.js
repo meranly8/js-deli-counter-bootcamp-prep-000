@@ -24,8 +24,9 @@ function currentLine(katzDeliLine) {
   
   for (let i = 0; i < l; i++){
     line = line + `${i+1}. ${katzDeliLine[i]}`
-    if (i < (l - 1) {
+    if (i < (l - 1)) {
       line = line + `, `
     }
   }
+  return line
 }
