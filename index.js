@@ -14,5 +14,6 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine) {
+  let l = katzDeliLine.length
   
 }
