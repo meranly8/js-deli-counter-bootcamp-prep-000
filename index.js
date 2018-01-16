@@ -11,8 +11,11 @@ function nowServing(katzDeliLine){
     colsole.log(next)
   
   katzDeli.shift()
-  } else {
+  } 
+  else return 'There is nobody waiting to be served!'
+  
+  
     
-  }
+  
   
 }
